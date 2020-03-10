@@ -265,8 +265,8 @@ class ExtendedTextSelectionState extends State<ExtendedTextSelection>
   }
 
   void _handleDoubleTapDown(TapDownDetails details) {
-    _renderParagraph.selectWord(cause: SelectionChangedCause.doubleTap);
-    showToolbar();
+    // _renderParagraph.selectWord(cause: SelectionChangedCause.doubleTap);
+    // showToolbar();
   }
 
   void _handleMouseDragSelectionStart(DragStartDetails details) {
